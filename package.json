@@ -1,0 +1,13 @@
+{
+  "name": "s-art-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "S-ART — Pop-Art von Sharyar Azhdari. Eigenständiger Website-Entwurf.",
+  "scripts": {
+    "dev": "python3 -m http.server 4178 --bind 127.0.0.1",
+    "check": "node --check app.js && node scripts/check.mjs",
+    "build": "node scripts/build.mjs",
+    "export": "python3 scripts/export.py"
+  },
+  "engines": { "node": ">=22" }
+}
